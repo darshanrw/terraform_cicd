@@ -8,6 +8,6 @@ resource "aws_instance" "group2_instance" {
   count         = var.core_count
 
   tags = {
-    Name = "group2_instance"
+    Name = "group2_vm"
   }
 }
